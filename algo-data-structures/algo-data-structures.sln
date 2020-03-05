@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "algo-data-structures", "algo-data-structures\algo-data-structures.csproj", "{D14A7190-8A4D-4386-AE01-F0EF3E2B98F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14A7190-8A4D-4386-AE01-F0EF3E2B98F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14A7190-8A4D-4386-AE01-F0EF3E2B98F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14A7190-8A4D-4386-AE01-F0EF3E2B98F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14A7190-8A4D-4386-AE01-F0EF3E2B98F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97363AB1-D5F3-4849-807C-64ACFCA4F792}
+	EndGlobalSection
+EndGlobal
