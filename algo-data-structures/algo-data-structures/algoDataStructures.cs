@@ -1,4 +1,4 @@
-/*
+﻿/*
 MIT License
 
 Copyright (c) 2020 Cigan Oliviu David
@@ -20,10 +20,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 */
 
-﻿namespace algo_data_structures
+namespace algo_data_structures
 {
 
     class generalSizes
@@ -53,25 +52,25 @@ SOFTWARE.
         public int StartColumnPoint = generalSizes.zeroSize;
         public int EndColumnPoint = generalSizes.zeroSize;
 
-        public oneDimensionalArrayType <Type> mainDiagonal;
-        public oneDimensionalArrayType <Type> aboveMainDiagonal;
-        public oneDimensionalArrayType <Type> underMainDiagonal;
-        public oneDimensionalArrayType <Type> secondaryDiagonal;
-        public oneDimensionalArrayType <Type> aboveSecondaryDiagonal;
-        public oneDimensionalArrayType <Type> underSecondaryDiagonal;
-        public oneDimensionalArrayType <Type> northElements;
-        public oneDimensionalArrayType <Type> southElements;
-        public oneDimensionalArrayType <Type> eastElements;
-        public oneDimensionalArrayType <Type> westElements;
+        public oneDimensionalArrayType <Type> mainDiagonal = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> aboveMainDiagonal = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> underMainDiagonal = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> secondaryDiagonal = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> aboveSecondaryDiagonal = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> underSecondaryDiagonal = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> northElements = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> southElements = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> eastElements = new oneDimensionalArrayType<Type>();
+        public oneDimensionalArrayType <Type> westElements = new oneDimensionalArrayType<Type>();
 
-        public Type[][] matrix = new Type [generalSizes.MATRIX_STD_LENGTH][];
+        public Type[,] matrix = new Type [generalSizes.MATRIX_STD_LENGTH, generalSizes.MATRIX_STD_LENGTH];
     }
 
     class binaryTreeType <Type>
     {
         public Type value;
-        public  binaryTreeType <Type> leftLeaf;
-        public binaryTreeType <Type> rightLeaf;
+        public  binaryTreeType <Type> leftLeaf = new binaryTreeType<Type>();
+        public binaryTreeType <Type> rightLeaf = new binaryTreeType<Type>();
     }
 
     class graphType <Type>
@@ -87,8 +86,8 @@ SOFTWARE.
         public int vertices = generalSizes.zeroSize;
         public int edges = generalSizes.zeroSize;
 
-        public matrixType <Type> adjacencyMatrix;
-        public oneDimensionalArrayType <Type> verticesValency;
+        public matrixType <Type> adjacencyMatrix = new matrixType<Type>();
+        public oneDimensionalArrayType <Type> verticesValency = new oneDimensionalArrayType<Type>();
     }
 
     class limits <Type>
@@ -110,7 +109,7 @@ SOFTWARE.
         public float coefficient_b;
         public float coefficient_c;
 
-        limits<float> roots;
+        limits<float> roots = new limits<float>();
     }
 
     class complexNumber
