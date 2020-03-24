@@ -121,4 +121,10 @@ SOFTWARE.
         public float RealPart = generalSizes.zeroFloatSize;
         public float ImaginaryPaty = generalSizes.zeroFloatSize;
     }
+
+    class centrum <Type> {
+
+        public Type data;
+        centrum<Type> nextLinkedValue = new centrum<Type>();
+    }
 }
